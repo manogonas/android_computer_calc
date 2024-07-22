@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Computer_calc</string>
+    <string name="proc1">Процессор AMD A6-7480 OEM [FM2+, 2 x 3.5 ГГц, L2 - 1 МБ, 2 х DDR3-2133 МГц, AMD Radeon R5, TDP 65 Вт]</string>
+    <string name="your_config">Ваша конфигурация</string>
+    <string name="lga_1700">На сокете LGA 1700</string>
+    <string name="am4">На сокете AM4</string>
+    <string name="am5">На сокете AM5</string>
+    <string name="lga_1200">На сокете LGA 1200</string>
+    <string name="lga_1151">На сокете LGA 1151</string>
+    <string name="choose_proc">Выберите процессор</string>
+    <string name="choose_mothe">Выберите материнскую плату</string>
+    <string name="mem_choose">Выберите объём оперативной памяти (ГБ)</string>
+    <string name="_2">2</string>
+    <string name="_4">4</string>
+    <string name="_8">8</string>
+    <string name="_16">16</string>
+    <string name="_32">32</string>
+    <string name="_1099_0">1099.0 руб.</string>
+    <string name="_0">0.0 руб.</string>
+</resources>

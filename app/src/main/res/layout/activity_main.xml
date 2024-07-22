@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scroll"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/your_config"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/choose_proc"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteX="5dp"
+            tools:layout_editor_absoluteY="40dp" />
+
+        <TextView
+            android:id="@+id/proc_price"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/choose_mothe"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/motherboard">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lga_1700"
+                android:id="@+id/lga_1700"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/am4"
+                android:id="@+id/am4"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/am5"
+                android:id="@+id/am5"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lga_1200"
+                android:id="@+id/lga_1200"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lga_1151"
+                android:id="@+id/lga_1151"/>
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/motherboard_price"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/mem_choose"/>
+
+        <SeekBar
+            android:id="@+id/seekbar"
+            style="@style/Widget.AppCompat.SeekBar.Discrete"
+            android:layout_height="match_parent"
+            android:layout_width="300dp"
+            android:max="4"
+            android:progress="0"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="13dp"
+                android:text="@string/_2"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="60dp"
+                android:text="@string/_4"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="60dp"
+                android:text="@string/_8"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="55dp"
+                android:text="@string/_16"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="55dp"
+                android:text="@string/_32"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mem_price"
+            android:text="@string/_1099_0"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Включить периферийные устройства в стоимость"
+            android:id="@+id/periferal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/per_price"
+            android:text="@string/_0"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/res"/>
+    </LinearLayout>
+</ScrollView>
